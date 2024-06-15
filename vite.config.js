@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/Coffee-Cafe-React/",
   plugins: [react()],
+  build: {
+    outDir: 'build'  // Asegúrate de que la salida se genere en el directorio 'build'
+  }
 })
